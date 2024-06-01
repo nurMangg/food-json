@@ -96,7 +96,7 @@ foods = [
     }
 ]
 
-@app.route('/api/foods', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_foods():
     return jsonify(foods)
 
